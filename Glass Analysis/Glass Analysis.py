@@ -49,7 +49,6 @@ glass_trans.boxplot(notch='True',patch_artist=True,grid=False);plt.xticks(fontsi
 # Pair plot
 sns.pairplot(glass)
 
-
 ######################## - Spliting data in X and y - ########################
 
 X = glass_trans
@@ -77,7 +76,6 @@ print(accuracy_score(y_test, pred)) # 0.68
 
 # Classification Report
 print(classification_report(y_test,pred))
-
 
 ########################### - Choosing a Prefect K Value - #########################
 
